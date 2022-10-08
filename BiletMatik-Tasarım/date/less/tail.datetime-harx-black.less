@@ -1,0 +1,87 @@
+/*
+ |  tail.datetime - A vanilla JavaScript DateTime Picker without dependencies!
+ |  @file       ./less/tail.datetime-harx-black.less
+ |  @author     SamBrishes <sam@pytes.net>
+ |  @version    0.4.3 - Beta
+ |
+ |  @website    https://github.com/pytesNET/tail.DateTime
+ |  @license    X11 / MIT License
+ |  @copyright  Copyright © 2018 SamBrishes, pytesNET <info@pytes.net>
+ */
+@import "tail.datetime-harx.less";
+
+// Colors
+@color_main: #149BE6;
+@color_util: #32B93C;
+
+@color_body_b: #202428;         // Background: Body
+@color_body_f: #c0c4c8;         // Foreground: Body
+
+@color_input_b: #101418;        // Background: Input Fields
+@color_input_f: #c0c4c8;        // Foreground: Input Fields
+@color_input_l: #909498;        // Foreground: Label Input Fields
+
+@color_tool_b: #FFFFFF;         // Background: Tooltip
+@color_tool_f: #202428;         // Foreground: Tooltip
+
+/* @start DARK THEME */
+.tail-datetime-calendar .calendar-actions{
+    span.action-prev{
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC\
+        9zdmciIHdpZHRoPSI2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgNiAxNiI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iT\
+        TYgMkwwIDhsNiA2VjJ6Ii8+PC9zdmc+");
+    }
+    span.action-next{
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC\
+        9zdmciIHdpZHRoPSI2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgNiAxNiI+PHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iT\
+        TAgMTRsNi02LTYtNnYxMnoiLz48L3N2Zz4=");
+    }
+    span.action-submit{
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC\
+        9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDEyIDE2Ij48cGF0aCBmaWxsPSIjZmZmZmZmIiBkP\
+        SJNMTIgNWwtOCA4LTQtNCAxLjUtMS41TDQgMTBsNi41LTYuNUwxMiA1eiIvPjwvc3ZnPg==");
+    }
+    span.action-cancel{
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC\
+        9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDEyIDE2Ij48cGF0aCBmaWxsPSIjZmZmZmZmIiBkP\
+        SJNNy40OCA4bDMuNzUgMy43NS0xLjQ4IDEuNDhMNiA5LjQ4bC0zLjc1IDMuNzUtMS40OC0xLjQ4TDQuNTIgOCAuNzcgNC4y\
+        NWwxLjQ4LTEuNDhMNiA2LjUybDMuNzUtMy43NSAxLjQ4IDEuNDhMNy40OCA4eiIvPjwvc3ZnPg==");
+    }
+}
+.tail-datetime-calendar .calendar-datepicker{
+    &:after{
+        border-top: 1px solid lighten(@color_body_b, 10%);
+    }
+    table tr td.date-previous,
+    table tr td.date-next{
+        color: darken(@color_body_f, 35%);
+    }
+    table tr td.date-disabled{
+        color: darken(@color_body_f, 35%);
+    }
+    table tr td.date-disabled:after{
+        color: darken(@color_body_f, 15%);
+    }
+
+    // Calendar View `Days`
+    table tr td.calendar-day,
+    table tr td.calendar-month,
+    table tr td.calendar-year,
+    table tr td.calendar-decade{
+        &:hover{
+            border-color: lighten(@color_body_b, 35%);
+        }
+    }
+}
+.tail-datetime-calendar .calendar-timepicker{
+    &:after{
+        border-top: 1px solid lighten(@color_body_b, 10%);
+    }
+    input[type=number]{
+        border-color: lighten(@color_input_b, 15%);
+    }
+    input[type=number]:hover{
+        border-color: lighten(@color_input_b, 35%);
+    }
+}
+/* @end DARK THEME */

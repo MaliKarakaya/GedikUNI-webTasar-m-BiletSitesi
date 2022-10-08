@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>:: BiletMatik | En Ucuz Otobüs ve Uçak Bileti Fiyatları Burada!!! BiletMatik.com :: </title>
+    <link rel="stylesheet" href="../css/firmalar.css">
+    <link type="text/css" rel="stylesheet" href="../date/css/tail.datetime-default.css" />
+    
+</head>
+<body>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+        $(".btn-slide").click(function(){
+        $("#slide-panel").slideToggle("slow");
+        });
+        });
+        </script>
+        <script type="text/javascript" src="../date/js/tail.datetime.min.js"></script>
+    <div id="container">
+        <div id="header">
+            <div class="logo">
+                <a href="../index.html"> <img src="../img/logo.png" alt="logo"></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a class="busicon" href="../index.html">Otobüs Bileti</a></li>
+                    <li><a class="planeicon" href="../ucak.html">Uçak Bileti</a></li>
+                </ul>
+            </div>
+            <div style="clear:both"></div>
+            <div class="operation">
+                <ul>
+                    <li><a id="myBtn" class="uyegiris">Üye Girişi</a></li>
+                    <li><a class="iade" href="../iade.html">Kolay İptal / İade</a></li>
+                    <li><a class="help notborder" href="../yardim.html">Yardım</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="banner">
+            <div class="bannerwrt">
+                <h1>Türkiye'nin En Büyük Otobüs Firması: <b> Metro Turizm</b></h1>
+            </div>
+            <div class="listbox">
+                <div class="kalkis">
+                    <div class="icon"></div>
+                    <span class="topwrt">Kalkış Noktası</span>
+                    <form action="#" method="POST">
+                        <select name="kalkis" id="knokta" required>
+                                <option value="0">Kalkış Noktasını Seçiniz...</option>
+                                <option value="1">Adana</option>
+                                <option value="2">Adıyaman</option>
+                                <option value="3">Afyonkarahisar</option>
+                                <option value="4">Ağrı</option>
+                                <option value="5">Amasya</option>
+                                <option value="6">Ankara</option>
+                                <option value="7">Antalya</option>
+                                <option value="8">Artvin</option>
+                                <option value="9">Aydın</option>
+                                <option value="10">Balıkesir</option>
+                                <option value="11">Bilecik</option>
+                                <option value="12">Bingöl</option>
+                                <option value="13">Bitlis</option>
+                                <option value="14">Bolu</option>
+                                <option value="15">Burdur</option>
+                                <option value="16">Bursa</option>
+                                <option value="17">Çanakkale</option>
+                                <option value="18">Çankırı</option>
+                                <option value="19">Çorum</option>
+                                <option value="20">Denizli</option>
+                                <option value="21">Diyarbakır</option>
+                                <option value="22">Edirne</option>
+                                <option value="23">Elazığ</option>
+                                <option value="24">Erzincan</option>
+                                <option value="25">Erzurum</option>
+                                <option value="26">Eskişehir</option>
+                                <option value="27">Gaziantep</option>
+                                <option value="28">Giresun</option>
+                                <option value="29">Gümüşhane</option>
+                                <option value="30">Hakkâri</option>
+                                <option value="31">Hatay</option>
+                                <option value="32">Isparta</option>
+                                <option value="33">Mersin</option>
+                                <option value="34">İstanbul</option>
+                                <option value="35">İzmir</option>
+                                <option value="36">Kars</option>
+                                <option value="37">Kastamonu</option>
+                                <option value="38">Kayseri</option>
+                                <option value="39">Kırklareli</option>
+                                <option value="40">Kırşehir</option>
+                                <option value="41">Kocaeli</option>
+                                <option value="42">Konya</option>
+                                <option value="43">Kütahya</option>
+                                <option value="44">Malatya</option>
+                                <option value="45">Manisa</option>
+                                <option value="46">Kahramanmaraş</option>
+                                <option value="47">Mardin</option>
+                                <option value="48">Muğla</option>
+                                <option value="49">Muş</option>
+                                <option value="50">Nevşehir</option>
+                                <option value="51">Niğde</option>
+                                <option value="52">Ordu</option>
+                                <option value="53">Rize</option>
+                                <option value="54">Sakarya</option>
+                                <option value="55">Samsun</option>
+                                <option value="56">Siirt</option>
+                                <option value="57">Sinop</option>
+                                <option value="58">Sivas</option>
+                                <option value="59">Tekirdağ</option>
+                                <option value="60">Tokat</option>
+                                <option value="61">Trabzon</option>
+                                <option value="62">Tunceli</option>
+                                <option value="63">Şanlıurfa</option>
+                                <option value="64">Uşak</option>
+                                <option value="65">Van</option>
+                                <option value="66">Yozgat</option>
+                                <option value="67">Zonguldak</option>
+                                <option value="68">Aksaray</option>
+                                <option value="69">Bayburt</option>
+                                <option value="70">Karaman</option>
+                                <option value="71">Kırıkkale</option>
+                                <option value="72">Batman</option>
+                                <option value="73">Şırnak</option>
+                                <option value="74">Bartın</option>
+                                <option value="75">Ardahan</option>
+                                <option value="76">Iğdır</option>
+                                <option value="77">Yalova</option>
+                                <option value="78">Karabük</option>
+                                <option value="79">Kilis</option>
+                                <option value="80">Osmaniye</option>
+                                <option value="81">Düzce</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="varis">
+                    <div class="icon"></div>
+                    <span class="topwrt">Varış Noktası</span>
+                    <form action="#" method="POST">
+                        <select name="kalkis" id="knokta" >
+                                <option value="0">Varış Noktasını Seçiniz...</option>
+                                <option value="1">Adana</option>
+                                <option value="2">Adıyaman</option>
+                                <option value="3">Afyonkarahisar</option>
+                                <option value="4">Ağrı</option>
+                                <option value="5">Amasya</option>
+                                <option value="6">Ankara</option>
+                                <option value="7">Antalya</option>
+                                <option value="8">Artvin</option>
+                                <option value="9">Aydın</option>
+                                <option value="10">Balıkesir</option>
+                                <option value="11">Bilecik</option>
+                                <option value="12">Bingöl</option>
+                                <option value="13">Bitlis</option>
+                                <option value="14">Bolu</option>
+                                <option value="15">Burdur</option>
+                                <option value="16">Bursa</option>
+                                <option value="17">Çanakkale</option>
+                                <option value="18">Çankırı</option>
+                                <option value="19">Çorum</option>
+                                <option value="20">Denizli</option>
+                                <option value="21">Diyarbakır</option>
+                                <option value="22">Edirne</option>
+                                <option value="23">Elazığ</option>
+                                <option value="24">Erzincan</option>
+                                <option value="25">Erzurum</option>
+                                <option value="26">Eskişehir</option>
+                                <option value="27">Gaziantep</option>
+                                <option value="28">Giresun</option>
+                                <option value="29">Gümüşhane</option>
+                                <option value="30">Hakkâri</option>
+                                <option value="31">Hatay</option>
+                                <option value="32">Isparta</option>
+                                <option value="33">Mersin</option>
+                                <option value="34">İstanbul</option>
+                                <option value="35">İzmir</option>
+                                <option value="36">Kars</option>
+                                <option value="37">Kastamonu</option>
+                                <option value="38">Kayseri</option>
+                                <option value="39">Kırklareli</option>
+                                <option value="40">Kırşehir</option>
+                                <option value="41">Kocaeli</option>
+                                <option value="42">Konya</option>
+                                <option value="43">Kütahya</option>
+                                <option value="44">Malatya</option>
+                                <option value="45">Manisa</option>
+                                <option value="46">Kahramanmaraş</option>
+                                <option value="47">Mardin</option>
+                                <option value="48">Muğla</option>
+                                <option value="49">Muş</option>
+                                <option value="50">Nevşehir</option>
+                                <option value="51">Niğde</option>
+                                <option value="52">Ordu</option>
+                                <option value="53">Rize</option>
+                                <option value="54">Sakarya</option>
+                                <option value="55">Samsun</option>
+                                <option value="56">Siirt</option>
+                                <option value="57">Sinop</option>
+                                <option value="58">Sivas</option>
+                                <option value="59">Tekirdağ</option>
+                                <option value="60">Tokat</option>
+                                <option value="61">Trabzon</option>
+                                <option value="62">Tunceli</option>
+                                <option value="63">Şanlıurfa</option>
+                                <option value="64">Uşak</option>
+                                <option value="65">Van</option>
+                                <option value="66">Yozgat</option>
+                                <option value="67">Zonguldak</option>
+                                <option value="68">Aksaray</option>
+                                <option value="69">Bayburt</option>
+                                <option value="70">Karaman</option>
+                                <option value="71">Kırıkkale</option>
+                                <option value="72">Batman</option>
+                                <option value="73">Şırnak</option>
+                                <option value="74">Bartın</option>
+                                <option value="75">Ardahan</option>
+                                <option value="76">Iğdır</option>
+                                <option value="77">Yalova</option>
+                                <option value="78">Karabük</option>
+                                <option value="79">Kilis</option>
+                                <option value="80">Osmaniye</option>
+                                <option value="81">Düzce</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="date">
+                    <div class="icon"></div>
+                    <span class="topwrt">Yolculuk Tarihi</span>
+                    <form action="#" method="POST">
+                        <input type="text" placeholder="Bir Tarih Seçiniz..." class="tail-datetime-field" />
+                    </form>
+                </div>
+                <div class="biletbul">
+                    <form action="#" method="POST">
+                       <a href="../otobüsbiletleri.html"><input class="submit" type="button" value="OTOBÜS BİLETİ BUL"></a> 
+                    </form>
+                </div>
+                <img class="degis" src="../icon/degis2.png" alt="degis">
+            </div>
+            <div class="info">
+                <img src="../img/istbus.png" alt="metrobus">
+            </div>
+        </div>
+		<div id="information">
+			<h1 class="header">İstanbul Seyahat</h1>
+			<div class="inbox">
+				<img src="../icon/bus.gif" alt="seckin"/><br>Firma Durumu
+				<p>Satışa Açık</p>
+			</div>
+			<div class="inbox">
+				<img src="../icon/toplam.gif" alt="cuzdan"/><br>Toplamda
+                <p>225 Durak</p>
+			</div>
+			<div class="inbox">
+				<img src="../icon/location.png" alt="kilit"/><br>Genel Merkez
+				<p>İstanbul</p>
+			</div>
+			<div class="inbox">
+				<img src="../icon/easy.gif" alt="7/24"/><br>Kuruluş Tarihi
+				<p>1940</p>
+            </div>
+            <div class="inbox">
+				<img src="../icon/kurucu.gif" alt="7/24"/><br>Kurucu
+				<p>Abit Tırış</p>
+            </div>
+            <div class="inbox dontborder">
+				<img src="../icon/yildiz.png" alt="7/24"/><br>Firma Puanı
+				<p>4,4 / 5</p>
+			</div>
+        </div>
+        <div style="clear:both;"></div>
+		<div id="whatticket">
+			<h1>İstanbul Seyahat Hakkında</h1>
+			<p>Türkiye’nin otobüs ile yolcu taşımalığında yüksek kalitehizmet vermeyi hedefleyerek rakiplerinden yıllarca ayrılmış bir firma olan İstanbul Seyahat gelmektedir. 1940 yılında temelleri atılan bu firma 75 yıldan uzun bir süredir Türkiye’de karayolu ile yolcu taşımacılığı denildiğinde akla gelen isimlerden biri olmayı sürdürmektedir. Yılda 4 milyona yakın yolcu taşımacılığı yapan İstanbul Seyahat'in seferlerinde çalışan 750’nin üzerinde personeli bulunmaktadır. Yine Çorlu, Tekirdağ bölgeleri ve Ankara İstanbul, İstanbul Ankara gibi hatlarda yoğun olarak çalışan bir firma olmasının yanında, özellikle Trakya ve Marmara Bölgesi’nden ve o bölgelere yüksek sayıda sefer düzenlemektedir. Hem vizyonunda, hem de hedeflerinde müşterilerinin koşulsuz memnuniyetini hedefleyen bir firma olan İstanbul Seyahat güvenlik ve kaliteyi vazgeçilmez ilkelerinden saymaktadır.</p>
+        </div>
+        <div id="promosyon">
+            <p><span class="bigwrt" style="color:#666481;" > İndirim &</span><span class="bigwrt" style="color:#9fcca2;"> <br> Promosyonlardan </span><br> anında haberdar olmak ister misiniz ?</p>
+            <form action="#">
+                <input type="email" id="email" placeholder="E-mail adresiniz"><div class="sub"></div>
+            </form>
+        </div>
+        <div id="footer">
+            <div class="top">
+                <div class="flogo">
+                   <a href="../index.html"><img src="../img/logo.png" alt="logo"></a> 
+                </div>
+                <div class="icons">
+                    <div class="iconfast">En Hızlı</div>
+                    <div class="iconkilit">En Güvenilir</div>
+                    <div class="iconcuzdan">En Ekonomik</div>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <div class="links">
+                <ul>
+                    <li class="header"><a href="../index.html">Otobüs Bileti</a></li>
+                    <li><a href="../busticketbuy.html">Bilet Al</a></li>
+                    <li><a href="../bussefer.html">Otobüs Seferleri</a></li>
+                    <li><a href="../busfirma.html">Otobüs Firmaları</a></li>
+                </ul>
+                <ul>
+                    <li class="header">Popüler Otobüs Firmaları</li>
+                    <li><a href="metroturizm.html">Metro Turizm</a></li>
+                    <li><a href="niluferturizm.html">Nilüfer Turizm</a></li>
+                    <li><a href="pamukkaleturizm.html">Pamukkale Turizm</a></li>
+                    <li><a href="istanbulseyehat.html">İstanbul Seyehat</a></li>
+                    <li><a href="topcamturizm.html">Topçam Turizm</a></li>
+                    <li><a href="efetur.html">Efe Tur</a></li>
+                </ul>
+                <ul>
+                    <li class="header">BiletMatik</li>
+                    <li><a href="../biletmatik/hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="../biletmatik/kullanimsartlari.html">Kullanım Şartları</a></li>
+                    <li><a href="../biletmatik/gizliliksozlesmesi.html">Gizlilik Sözleşmesi</a></li>
+                    <li><a href="../biletmatik/kisiselveri.html">Kişisel Verilerin Korunması</a></li>
+                    <li><a href="../biletmatik/odullerimiz.html">Ödüllerimiz</a></li>
+                    <li><a href="../yardim.html">Yardım ve İletişim</a></li>
+                    <li><a href="../iade.html">Bilet Sorgulama ve İptal</a></li>
+                </ul>
+                <ul>
+                    <div class="icon">
+                        <style>
+                            @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+                            </style>
+                            <ul>
+                              <li>
+                                <a class="face" target=" _blank" href="https://www.Facebook.com/alperoglualper">
+                                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                                  <span> &nbsp; - Facebook</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a class="twt" target=" _blank" href="https://www.Twitter.com/alperx2oglu">
+                                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                                  <span> &nbsp; - Twitter</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a class="google" target=" _blank" href="http://www.alperalperoglu.club">
+                                  <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                  <span> &nbsp; - Google</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a class="inst" target=" _blank" href="https://www.Instagram.com/alperalperoglu01">
+                                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                                  <span> &nbsp; - Instagram</span>
+                                </a>
+                              </li>
+						</ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div id="bottom">
+            Copyright &copy; 2018 - <a href="http://www.alperalperoglu.club">ALPEROĞLU Web Hosting</a> 
+        </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="user">
+            <h2 class="header">ÜYE GİRİŞ</h2>
+            <form action="uyegiris.html" method="POST">
+                <p>
+                    <input class="box" id="emial" type="email" placeholder="E-Posta Adresinizi Giriniz..." required>
+                </p>
+                <p>
+                    <input class="box" id="password" type="password" minlength="6" maxlength="20" placeholder="Şifrenizi Giriniz..." required>
+                </p>
+                <p class="remember">
+                    <input type="checkbox" name="htrla">Beni Hatırla
+                </p>
+
+                <input type="submit" id="register" class="registerbutton" value="Giriş Yap">
+                <div class="altgiris">
+                <img class="giris" src="icon/facegiris.png"/>
+                <img class="giris" src="icon/intgiris.png"/>
+                <img class="giris" src="icon/googlegiris.png"/>
+                <img class="giris" src="icon/twitgiris.png"/>
+                <p><b> Sosyal Medya ile de giriş yapabilirsiniz</b></p>
+				<p> veya</p>
+                <p>Henüz üye değil misin? <a href="../signup.html">Üye Ol</a></p>
+            </div>
+            </form>
+        </div>
+  </div>
+
+
+</div>
+    
+    </div>
+    <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(){
+            tail.DateTime(".tail-datetime-field", { });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+[synder]
+@basepath:  "source"
+title:      "A vanilla JavaScript DateTime Picker without dependencies!"
+status:     "Beta"
+author:     "SamBrishes"
+authormail: "sam@pytes.net"
+copyyear:   "2018"
+copymail:   "info@pytes.net"
+[/synder]
+
+[default]
+/*
+ |  {package:name} - {title}
+ |  @file       ./{project:dirname}{project:file}
+ |  @author     {author} <{authormail}>
+ |  @version    {package:version} - {status}
+ |
+ |  @website    {package:homepage}
+ |  @license    X11 / MIT License
+ |  @copyright  Copyright © {copyyear} {package:author} <{copymail}>
+ */
+[/default]
+
+[css]
+@charset "utf-8";
+{template:default}
+[/css]
